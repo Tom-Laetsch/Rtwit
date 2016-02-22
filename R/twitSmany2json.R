@@ -15,8 +15,8 @@
 #' twitSmany2json(filename='~/thomas_laetsch.json', twitter_token = twitter_token, q = 'thomas laetsch uconn OR nyu')
 
 twitSmany2json <- function(filename, twitter_token, n=5000, 
-                           my_oauth=NULL, q='', geocode=NULL, 
-                           lang=NULL, result_type=NULL, until=NULL,
+                           q='', geocode=NULL,  lang=NULL, 
+                           result_type=NULL, until=NULL,
                            since_id=NULL, max_id=NULL,
                            verbose=TRUE, append_old = FALSE){
     require(jsonlite)
